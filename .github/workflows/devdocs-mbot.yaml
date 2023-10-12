@@ -1,4 +1,4 @@
-name: stef-cmmva
+name: stef-cotizador
 on:
   push:
     branches:
