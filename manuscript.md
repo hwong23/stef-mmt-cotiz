@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-10-13" />
   <meta name="citation_publication_date" content="2023-10-13" />
   <meta property="article:published_time" content="2023-10-13" />
-  <meta name="dc.modified" content="2023-10-13T19:50:57+00:00" />
-  <meta property="article:modified_time" content="2023-10-13T19:50:57+00:00" />
+  <meta name="dc.modified" content="2023-10-13T19:53:56+00:00" />
+  <meta property="article:modified_time" content="2023-10-13T19:53:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/1670c6b4885fabd631c1c0a5c73a982076602014/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/1670c6b4885fabd631c1c0a5c73a982076602014/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/1670c6b4885fabd631c1c0a5c73a982076602014/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/9acd12016874194afacfd04716b3c23f1201a490/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/9acd12016874194afacfd04716b3c23f1201a490/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/9acd12016874194afacfd04716b3c23f1201a490/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.1670c6b de 13 Oct 2023
+| **Versión** del producto 1.9acd120 de 13 Oct 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/1670c6b4885fabd631c1c0a5c73a982076602014/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/9acd12016874194afacfd04716b3c23f1201a490/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@1670c6b](http://stefanini.sharepoint.com)
+[Sharepoint STEF@9acd120](http://stefanini.sharepoint.com)
 del October 13, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.1670c6b del 13 Oct 2023 |
+| Versión        | 1.9acd120 del 13 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -168,7 +168,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 # Introducción
 
 ## Propósito
-Este documento tiene como propósito presentar la arquitectura del aplicativo Mi Mutual para STEF - Coomeva. según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
+Este documento tiene como propósito presentar la arquitectura del aplicativo Cotizador Web Mi Mutual para STEF - Coomeva. según los requerimientos definidos durante la etapa de preventa y luego detallados en las historias de usuario.
 
 La arquitectura será una guía para que el diseño y la implementación de los componentes que conforman la solución sean cobijados bajo lineamientos y premisas bien definidos, permitiendo a los elementos del sistema interactuar entre sí de forma coherente. La arquitectura será tomada como un diseño estratégico que establece restricciones globales para el diseño, define un marco inicial de trabajo para la implementación de los requerimientos funcionales y no funcionales.
 
@@ -183,10 +183,10 @@ Uno de los principales propósitos de este documento es hacer una representació
 
 
 
-# Restricciones Principales de Arquitectura
-Informamos de las restricciones que hacen parte de Mi Mutual, y por tanto, a considerar en el ejercicio de arquitectura del presente proyecto.
+# Restricciones Principales de Arquitectura Cotizador Web Mi Mutual Central
+Informamos de las restricciones que hacen parte de Cotizador Web Mi Mutual, y por tanto, a considerar en el ejercicio de arquitectura del presente proyecto.
 
-Lista de restricciones de Mi Mutual, 2023.
+Lista de restricciones de Cotizador Web Mi Mutual, 2023.
 
 1. Disponibilidad. Se requiere que el sistema esté disponible 7 X 24, el servicio prestado al cliente no se limita a horarios de oficina pues las compras pueden darse en cualquier momento
 1. Escalabilidad. Se requiere que el sistema pueda llegar a atender hasta 1.000 clientes, para esto se requiere que el sistema se pueda extender horizontalmente de tal manera que pueda tener instalado en varios servidores para atender esta cantidad de usuarios. Todas las aplicaciones desarrolladas podrán ser escaladas horizontalmente para atender la demanda relacionada con el crecimiento de la empresa.
@@ -210,14 +210,14 @@ Otras restricciones a detallar.
 <br>
 
 
-# Requisitos de Arquitectura Mi Mutual Central (no funcional)
-Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración Mi Mutual, objeto de este proyecto, Mi Mutual Coomeva.
+# Requisitos de Arquitectura Cotizador Web Mi Mutual Central (no funcional)
+Entendemos como requisitos de arquitectura aquellos requerimientos no visibles pero estructurales, medibles, y que impactan al funcionamiento, desarrollo y mantenimiento de la solución migración Cotizador Web Mi Mutual, objeto de este proyecto, Mi Mutual Coomeva.
  
 Definiremos estos requisitos de la solución a tener en cuenta al momento del desarrollo.
 
 ## Requerimientos generales
 1. **Parametrización**. Crear desarrollos parametrizables necesarios para permitir la administración de la información de uso general.
-1. **Interoperabilidad**. Crear desarrollos de Mi Mutual interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
+1. **Interoperabilidad**. Crear desarrollos de Cotizador Web Mi Mutual interoperables con otros sistemas de información de la entidad según requerimientos de los procesos.
 1. **Diseño**. Los desarrollos complementarios deben responder a los criterios de bajo acoplamiento y alta cohesión.
 1. **Reglas de negocio**. Las soluciones deben disponer de todas las validaciones y controles que garanticen la calidad, seguridad y unicidad de la información.
 1. Para los casos que aplique, la solución debe contar con una integración con el servicio de correo de la Entidad.
@@ -227,34 +227,34 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 \newpage
 
 
-## Requisitos Particulares de Arquitectura Mi Mutual Central (no funcional) 
+## Requisitos Particulares de Arquitectura Cotizador Web Mi Mutual Central (no funcional) 
 
-### Consistencia Mi Mutual (lógica)
+### Consistencia Cotizador Web Mi Mutual (lógica)
 
-| Requisito      | Extensibilidad Mi Mutual |
+| Requisito      | Extensibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
-| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
-| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
+| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Cotizador Web Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
+| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Cotizador Web Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
 
-Table: Requisito no. 1, Migración Mi Mutual, Consistencia. {#tbl:requisito1-id}
+Table: Requisito no. 1, Migración Cotizador Web Mi Mutual, Consistencia. {#tbl:requisito1-id}
 
-### Mantenibilidad Mi Mutual
+### Mantenibilidad Cotizador Web Mi Mutual
 
-| Requisito      | Mantenibilidad Mi Mutual |
+| Requisito      | Mantenibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
-| Descripción | Evitar las dependencia transitivas de los módulos misionales del Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
-| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
+| Descripción | Evitar las dependencia transitivas de los módulos misionales del Cotizador Web Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
+| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración Cotizador Web Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Cotizador Web Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Cotizador Web Mi Mutual, más adelante en el documento. |
 
-Table: Requisito no. 2, Mantenibilidad Mi Mutual. {#tbl:requisito2-id}
+Table: Requisito no. 2, Mantenibilidad Cotizador Web Mi Mutual. {#tbl:requisito2-id}
 
-### Extensibilidad Mi Mutual
+### Extensibilidad Cotizador Web Mi Mutual
 
-| Requisito      | Extensibilidad Mi Mutual |
+| Requisito      | Extensibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
-| Descripción | Concentración de los componentes de negocio, misionales, del Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Mi Mutual, más adelante en el documento. |
-| Calidad sistémica | La extensibilidad que optimiza el diseño Migración Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+| Descripción | Concentración de los componentes de negocio, misionales, del Cotizador Web Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Cotizador Web Mi Mutual, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Migración Cotizador Web Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
 
-Table: Requisito no. 3, Migración Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
+Table: Requisito no. 3, Migración Cotizador Web Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 
 <div style="page-break-before: always;"></div>
 \newpage
@@ -547,7 +547,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 
 ``Generated on: Fri Oct 13 2023 14:46:27 GMT-0500 (COT)``
 
-## Requerimientos de Administración Mi Mutual Central
+## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
 2.	Administrar los Perfiles de acceso por rol: Esta funcionalidad permitirá configurar a que funcionalidades u opciones de la solución puede entrar un usuario con un rol específico. 
 Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir configurar, activar, desactivar usuarios de las soluciones desarrolladas.
@@ -564,7 +564,7 @@ Administrar los Usuarios de la Solución: Esta funcionalidad debe permitir confi
 <br>
 
 
-## Requerimientos de Seguridad Mi Mutual Central
+## Requerimientos de Seguridad Cotizador Web Mi Mutual Central
 1. Las soluciones deben dar cumplimiento a las políticas institucionales del sistema de gestión de seguridad de la información establecidas por la entidad que busca garantizar la confidencialidad, integridad y disponibilidad de la información que se genera, procesa, almacena y/o transmite en los sistemas de Información de la Entidad. 
 1. Las soluciones de automatización de procesos a implementar deben permitir la Gestión de Seguridad de Usuarios, grupos de usuarios y asignación de Roles y perfiles de usuarios, permitiendo asociar las acciones disponibles en la solución con respecto a roles de usuario, permitiendo parametrizar las funcionalidades que cada actor puede usar en la solución. 
 1. Un usuario puede estar asociado a uno o más roles, de tal manera que los menús de navegación de la solución se muestran o despliegan dependiendo de las acciones asociadas a cada rol de usuario, permitiendo así que cuando el usuario es autenticado correctamente, la solución verifica los roles que tiene activos para otorgarle únicamente las acciones autorizadas. 
