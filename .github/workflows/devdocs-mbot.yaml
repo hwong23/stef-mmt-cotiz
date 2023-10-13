@@ -72,7 +72,7 @@ jobs:
           echo "COMPILATION_DATE=$(date +'%d %b %Y')" >> $GITHUB_ENV
           echo "PROYECTO=Mi Mutual Coomeva" >> $GITHUB_ENV
           echo "PROY_DESCR=Mi Mutual, Sistema de Previsión, Asistencia y Solidaridad, Coomeva" >> $GITHUB_ENV
-          echo "APLICATIVO=Mi Mutual" >> $GITHUB_ENV
+          echo "APLICATIVO=Cotizador Web Mi Mutual" >> $GITHUB_ENV
           echo "CLIENTE=STEF - Coomeva" >> $GITHUB_ENV
           
       - name: Cache
