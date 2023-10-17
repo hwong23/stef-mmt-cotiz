@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-15'
+date-meta: '2023-10-17'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-15" />
-  <meta name="citation_publication_date" content="2023-10-15" />
-  <meta property="article:published_time" content="2023-10-15" />
-  <meta name="dc.modified" content="2023-10-15T04:35:42+00:00" />
-  <meta property="article:modified_time" content="2023-10-15T04:35:42+00:00" />
+  <meta name="dc.date" content="2023-10-17" />
+  <meta name="citation_publication_date" content="2023-10-17" />
+  <meta property="article:published_time" content="2023-10-17" />
+  <meta name="dc.modified" content="2023-10-17T13:07:56+00:00" />
+  <meta property="article:modified_time" content="2023-10-17T13:07:56+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2a99cfe0cc8fc4d713514330213a4ac9152efabf/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2a99cfe0cc8fc4d713514330213a4ac9152efabf/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2a99cfe0cc8fc4d713514330213a4ac9152efabf/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.2a99cfe de 15 Oct 2023
+| **Versión** del producto 1.2decfe6 de 17 Oct 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 15 Oct 2023
+| 17 Oct 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2a99cfe0cc8fc4d713514330213a4ac9152efabf/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@2a99cfe](http://stefanini.sharepoint.com)
-del October 15, 2023.
+[Sharepoint STEF@2decfe6](http://stefanini.sharepoint.com)
+del October 17, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.2a99cfe del 15 Oct 2023 |
+| Versión        | 1.2decfe6 del 17 Oct 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
