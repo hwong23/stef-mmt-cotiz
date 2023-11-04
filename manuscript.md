@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-04" />
   <meta name="citation_publication_date" content="2023-11-04" />
   <meta property="article:published_time" content="2023-11-04" />
-  <meta name="dc.modified" content="2023-11-04T00:52:02+00:00" />
-  <meta property="article:modified_time" content="2023-11-04T00:52:02+00:00" />
+  <meta name="dc.modified" content="2023-11-04T01:06:04+00:00" />
+  <meta property="article:modified_time" content="2023-11-04T01:06:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2846fcd18a3b940e9a6692735ead68963bb5177a/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2846fcd18a3b940e9a6692735ead68963bb5177a/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2846fcd18a3b940e9a6692735ead68963bb5177a/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.2b852eb de 04 Nov 2023
+| **Versión** del producto 1.2846fcd de 04 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2846fcd18a3b940e9a6692735ead68963bb5177a/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@2b852eb](http://stefanini.sharepoint.com)
+[Sharepoint STEF@2846fcd](http://stefanini.sharepoint.com)
 del November 4, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.2b852eb del 04 Nov 2023 |
+| Versión        | 1.2846fcd del 04 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -271,8 +271,8 @@ Table: Requisito no. 3, Desarrollo Cotizador Web Mi Mutual, Flexibilidad. {#tbl:
 	* [Cotizador. 4. Aplicación](#cotizador.-4.-aplicación)
 	* [Cotizador. 4a. Aplicación. Servicios](#cotizador.-4a.-aplicación.-servicios)
 	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
-	* [Cotizador. 5. Físico (despliegue)](#cotizador.-5.-físico-despliegue)
-	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
+	* [upd](#upd)
+	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
 
 
 <div style="page-break-before: always;"></div>
@@ -479,8 +479,8 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 <br>
 
-## Cotizador. 5. Físico (despliegue)
-![Diagram: Cotizador. 5. Físico (despliegue)](images/Cotizador.5.Físico(despliegue).png){#fig:Cotizador.5.Físico(despliegue) width=}
+## upd
+![Diagram: upd](images/upd.png){#fig:upd width=}
 
 ### Especificaciones de Despliegue Cotizador Web
 Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
@@ -497,6 +497,10 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 * Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
 * Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
 * Angular 14.
+
+<br>
+
+| Nota: los paquetes con el mismo nombre, como pkg: cliente, y pkg: clientes que aparecen arriba en el diagrama corresponden a espacio de nombres distintos. Por ejemplo, para el caso de estos dos paquetes, pkg: cliente pertenece el espacio de nombre (web) Cotizador; en cambio, pkg: clientes pertenece al espacio de nombres (web) admin Páginas.
 
 <br>
 
@@ -534,42 +538,56 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 
 <br>
 
-## Cotizador. 7. Datos. Negocio
-![Diagram: Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
+## Cotizador. 7a. Modelo Negocio
+![Diagram: Cotizador. 7a. Modelo Negocio](images/Cotizador.7a.ModeloNegocio.png){#fig:Cotizador.7a.ModeloNegocio width=}
 
-### Entidades de Negocio Mi Mutual
-Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
+### Conceptos Principales
 
-* Configuración (caracterización de productos, plan)
-* Plan (producto pólizas seguros)
-* Canal (medios del tomador/asociado)
-* Parametros globales (catálogos)
-* Portafolio de asociado
-* Asociado
-* Facturación
-* Beneficiario
+1. Configuración
+1. Vinculación
+1. Venta
+1. Cotización
+1. Factura
+1. Cobertura
+1. Configuración
+1. Plan de producto
+
+
+### Orden Operativo
+
+1. Configuración
+1. Vinculación
+1. Venta o Cotización
+1. Factura
 
 
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
 |:--------|:--------|:--------|:--------|
-|**DAT00.Asegurado**|business-object|||
+|**Auditoría Médica**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
+|**DAT00. Cobertura**|business-object|||
+|**DAT00. Glosa**|business-object|Cuando se glosa una solicitus es porque el auditor medico necesita mas informacion y la reasigna.<br>||
 |**DAT00.Asociado**|business-object|||
+|**DAT00.Auxilio Funerario**|business-object|||
 |**DAT00.Beneficiario**|business-object|||
 |**DAT00.Canal (medios del tomador/asociado)**|business-object|||
 |**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
 |**DAT00.Cotización**|business-object|||
+|**DAT00.Facturación**|business-object|Factura la genera COOMEVA.<br>||
+|**DAT00.Plan - Cobertura**|business-object|||
 |**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Plan de Pagos**|business-object|||
+|**DAT00.Planes**|business-object|||
+|**DAT00.Producto**|business-object|||
+|**DAT00.Solicitud**|business-object|Caracterización de productos, planes, parámetros<br>||
+|**DAT00.Venta**|business-object|||
 |**DAT00.Vinculación**|business-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
-|**DAT01.PERSONA**|data-object|||
+|**Fondo Solidaridad**|business-object|||
 
 <br>
 
 
-``Generated on: Fri Nov 03 2023 19:49:14 GMT-0500 (COT)``
+``Generated on: Fri Nov 03 2023 20:03:35 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
