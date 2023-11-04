@@ -5,7 +5,7 @@ keywords:
 - gobierno
 - Coomeva
 lang: en-US
-date-meta: '2023-10-17'
+date-meta: '2023-11-04'
 author-meta:
 - Equipo arquitectura STEF-COOMV.
 header-includes: |
@@ -15,11 +15,11 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.date" content="2023-10-17" />
-  <meta name="citation_publication_date" content="2023-10-17" />
-  <meta property="article:published_time" content="2023-10-17" />
-  <meta name="dc.modified" content="2023-10-17T13:07:56+00:00" />
-  <meta property="article:modified_time" content="2023-10-17T13:07:56+00:00" />
+  <meta name="dc.date" content="2023-11-04" />
+  <meta name="citation_publication_date" content="2023-11-04" />
+  <meta property="article:published_time" content="2023-11-04" />
+  <meta name="dc.modified" content="2023-11-04T00:38:02+00:00" />
+  <meta property="article:modified_time" content="2023-11-04T00:38:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.2decfe6 de 17 Oct 2023
+| **Versión** del producto 1.c2394d5 de 04 Nov 2023
 
 | **Presentado a**
 
@@ -87,7 +87,7 @@ tablenos-caption-name: Tabla
 
 | **Fecha**
 
-| 17 Oct 2023
+| 04 Nov 2023
 
 
 <div style="page-break-before: always;"></div>
@@ -95,10 +95,10 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@2decfe6](http://stefanini.sharepoint.com)
-del October 17, 2023.
+[Sharepoint STEF@c2394d5](http://stefanini.sharepoint.com)
+del November 4, 2023.
 </em></small>
 
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.2decfe6 del 17 Oct 2023 |
+| Versión        | 1.c2394d5 del 04 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -227,57 +227,60 @@ Definiremos estos requisitos de la solución a tener en cuenta al momento del de
 \newpage
 
 
-## Requisitos Particulares de Arquitectura Cotizador Web Mi Mutual Central (no funcional) 
+## Requisitos Particulares de Arquitectura (no funcional) 
 
 ### Consistencia Cotizador Web Mi Mutual (lógica)
 
 | Requisito      | Extensibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
-| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a conciliaciones, publicaciones de relatoría, resoluciones, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Cotizador Web Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
-| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio sea la misma entre los módulos del Cotizador Web Mi Mutual migrado. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
+| Descripción | Unifica las entidades de negocio Coomeva, entre las que se incluyen a Cotización, Venta, Vinculación, en artefactos reutilizables. Distinto de que estas entidades (y su lógica de negocio) estén dispersos entre los sistemas del Cotizador Web Mi Mutual, estarán concentradas en un único artefacto correspondiente. |
+| Calidad sistémica | La consistencia persigue que el resultado de la lógica de negocio de las entidades de Mi Mutual sea la misma entre los módulos del Cotizador Web Mi Mutual. Esto redunda a mantenibilidad y gestión: tiende a tener un solo punto de cambio y dificulta la transferencia de dependencias implícitas a otros procesos. |
 
-Table: Requisito no. 1, Migración Cotizador Web Mi Mutual, Consistencia. {#tbl:requisito1-id}
+Table: Requisito no. 1, Desarrollo Cotizador Web Mi Mutual, Consistencia. {#tbl:requisito1-id}
+
+<br>
 
 ### Mantenibilidad Cotizador Web Mi Mutual
 
 | Requisito      | Mantenibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
 | Descripción | Evitar las dependencia transitivas de los módulos misionales del Cotizador Web Mi Mutual a componentes y sistemas de terceros o submódulos no misionales.  |
-| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Migración Cotizador Web Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Cotizador Web Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Migración Cotizador Web Mi Mutual, más adelante en el documento. |
+| Calidad sistémica | La mantenibilidad por control de dependencias que optimiza el diseño Desarrollo Cotizador Web Mi Mutual está dada por el control de cambios no programados sobre los componentes misionales del Cotizador Web Mi Mutual (corrupción de componentes). Ver Patrón de Diseño Desarrollo Cotizador Web Mi Mutual, más adelante en el documento. |
 
 Table: Requisito no. 2, Mantenibilidad Cotizador Web Mi Mutual. {#tbl:requisito2-id}
+
+<br>
 
 ### Extensibilidad Cotizador Web Mi Mutual
 
 | Requisito      | Extensibilidad Cotizador Web Mi Mutual |
 |----------------|--------------------|
-| Descripción | Concentración de los componentes de negocio, misionales, del Cotizador Web Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Migración Cotizador Web Mi Mutual, más adelante en el documento. |
-| Calidad sistémica | La extensibilidad que optimiza el diseño Migración Cotizador Web Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
+| Descripción | Concentración de los componentes de negocio, misionales, del Cotizador Web Mi Mutual protegidos de cambios provenientes de otros sistemas. Ver Patrón de Diseño Desarrollo Cotizador Web Mi Mutual, más adelante en el documento. |
+| Calidad sistémica | La extensibilidad que optimiza el diseño Desarrollo Cotizador Web Mi Mutual está dada por el intercambio de submódulos no misionales, como el gestor documental, sin afectación de los componentes misionales que este diseño protege. |
 
-Table: Requisito no. 3, Migración Cotizador Web Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
+Table: Requisito no. 3, Desarrollo Cotizador Web Mi Mutual, Flexibilidad. {#tbl:requisito3-id}
 
 <div style="page-break-before: always;"></div>
 \newpage
 
 
-
-
 # Vistas de Arquitectura Cotizador 
 * [Cotizador Web](#cotizador-web)
-	* [ArqCotizador. 1. Contexto](#arqcotizador.-1.-contexto)
-	* [ArqCotizador. 2. Contenedores](#arqcotizador.-2.-contenedores)
-	* [ArqCotizador. 4. Aplicación](#arqcotizador.-4.-aplicación)
-	* [ArqCotizador. 4a. Aplicación. Servicios](#arqcotizador.-4a.-aplicación.-servicios)
-	* [ArqCotizador. 4a. Dependencias](#arqcotizador.-4a.-dependencias)
-	* [ArqCotizador. 5. Físico (despliegue)](#arqcotizador.-5.-físico-despliegue)
-	* [ArqCotizador. 7. Datos. Negocio](#arqcotizador.-7.-datos.-negocio)
+	* [Cotizador. 1. Contexto](#cotizador.-1.-contexto)
+	* [Cotizador. 2. Contenedores](#cotizador.-2.-contenedores)
+	* [Cotizador. 4. Aplicación](#cotizador.-4.-aplicación)
+	* [Cotizador. 4a. Aplicación. Servicios](#cotizador.-4a.-aplicación.-servicios)
+	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
+	* [Cotizador. 5. Físico (despliegue)](#cotizador.-5.-físico-despliegue)
+	* [Cotizador. 7. Datos. Negocio](#cotizador.-7.-datos.-negocio)
+
 
 <div style="page-break-before: always;"></div>
 \newpage
 
 # Cotizador Web
-## ArqCotizador. 1. Contexto
-![Diagram: ArqCotizador. 1. Contexto](images/ArqCotizador.1.Contexto.png){#fig:ArqCotizador.1.Contexto width=}
+## Cotizador. 1. Contexto
+![Diagram: Cotizador. 1. Contexto](images/Cotizador.1.Contexto.png){#fig:Cotizador.1.Contexto width=}
 
 ### Contexto Mi Mutual Web
 La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mutual Central, representado por API Mi Mutual en el diagrama. Realizar cotizaciones de los planes de protección luego de la vinculación del asociado.
@@ -285,7 +288,7 @@ La aplicación Cotizador Web hace parte de los módulos de interfaz web de Mi Mu
 La estructura por módulos permite realizar aplicaciones escalables y robustas ya que permite organizar las partes de la aplicación, la organización en bloques, extender la aplicación con funcionalidades de libreras externas, proporcionar un entorno de resolución de plantillas y además permite especificar la forma de la carga de cada uno de los componentes y servicios que conforman un módulo.
 
 ### Módulos Externos
-Los módulos externos son todas y cada uno de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
+Los módulos externos son todas y cada una de las herramientas que se utilizan para complementar con funcionalidades ya desarrolladas y tomadas desde un repositorio externo (NPM).
 
 * TranslateModule: Manejo de internacionalización. Documentación: https://github.com/ngx-translate/core
 * NgxMaskModule: Manejo de máscaras de input text. Documentación: https://github.com/JsDaddy/ngx-mask
@@ -320,12 +323,18 @@ Los módulos externos son todas y cada uno de las herramientas que se utilizan p
 |:--------|:--------|:--------|:--------|
 |**Controlador Mi Mutual**|application-component|Los componentes de este tipo se encargan de controlar los servicios rest de la aplicación, además en estos componentes se define la forma como se reciben y envían los datos de los servicios rest y la seguridad de cada uno de los métodos.|*modulo:* mimutual<br>|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
-|**Aplicativo**|application-function||*modulo:* cotizador<br>|
-|**Compartido**|application-function||*modulo:* cotizador<br>|
-|**Cotizador**|application-function||*modulo:* cotizador<br>|
-|**Interfaz gráfica**|application-function||*modulo:* cotizador<br>|
+|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**(web) Proveedores**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**(web) Reportes**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
+|**Asociados**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.<br>|*modulo:* cotizador<br>|
+|**Cliente**|application-function|Grupo de funcionalidad (servicios) de Asociados del Cotizador Web.|*modulo:* cotizador<br>|
+|**Configuracn.**|application-function|Grupo de funcionalidad (servicios) de Planes de Configuración del Cotizador Web.|*modulo:* cotizador<br>|
+|**Cotizaciones**|application-function|Grupo de funcionalidad (servicios) de Cotización de la aplicación.|*modulo:* cotizador<br>|
+|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
+|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
 |**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
-|**admin Páginas**|application-function||*modulo:* cotizador<br>|
 |**admin Servicios**|application-function||*modulo:* cotizador<br>|
 |**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
 |**Autenticación: authgard**|application-service|||
@@ -333,8 +342,8 @@ Los módulos externos son todas y cada uno de las herramientas que se utilizan p
 |**Parametrización: typeservice**|application-service|||
 |**Sesión admin: idletimeout**|application-service|||
 
-## ArqCotizador. 2. Contenedores
-![Diagram: ArqCotizador. 2. Contenedores](images/ArqCotizador.2.Contenedores.png){#fig:ArqCotizador.2.Contenedores width=}
+## Cotizador. 2. Contenedores
+![Diagram: Cotizador. 2. Contenedores](images/Cotizador.2.Contenedores.png){#fig:Cotizador.2.Contenedores width=}
 
 ### Catálogo de Elementos
 | Name| Type| Description| Properties
@@ -347,8 +356,8 @@ Los módulos externos son todas y cada uno de las herramientas que se utilizan p
 |**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
 |**Cliente HTTP / HTTPS**|application-interface|||
 
-## ArqCotizador. 4. Aplicación
-![Diagram: ArqCotizador. 4. Aplicación](images/ArqCotizador.4.Aplicación.png){#fig:ArqCotizador.4.Aplicación width=}
+## Cotizador. 4. Aplicación
+![Diagram: Cotizador. 4. Aplicación](images/Cotizador.4.Aplicación.png){#fig:Cotizador.4.Aplicación width=}
 
 La organización de la aplicación Cotizador Web Mi Mutual, como capa de presentación y servicios, plantea una estructura basada en la referencia de aplicaciones Angular 12. Las características de esta estructura (referida por Angular) está orientada al crecimiento (tamaño) de la aplicación, la escalabilidad y al rendimiento. La aplicación web Cotizador está diseñada (modulos) para manejar la carga por demanda del contenido.
 
@@ -374,17 +383,18 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 |**app: Implementación de Servicios**|application-component|Los componentes de este tipo se encargan de controlar y almacenar toda la lógica del negocio, validaciones y todo lo referente a procesamiento de datos.<br>|*modulo:* mimutual<br>|
 |**app: Mi Mutual Central**|application-component|Antes SIPAS, Mi Mutual es una aplicación web compuesta por distintos módulos de software con arreglo a todas las actividades necesarias que soportan la operación de los productos y servicios que ofrece la Unidad de Solidaridad y Seguros de la Cooperativa.|*modulo:* mimutual<br>|
 |**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
+|**Administración**|application-service|Servicios de aplicación central que el Cotizador Web usa. Administración.<br>||
 |**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
-|**Autorizaciones**|application-service|Autorizaciones: Administración de peticiones de autorización y sus correspondientes aprobaciones usando el servicio del flujo de procesos.||
-|**Certificados**|application-service|Certificados: Permite la generación de los certificados de valores de protección y contribuciones pagadas, de retención en la fuente, de pagos de perseverancia y de cobertura de auxilio funerario.||
-|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.||
-|**Facturación y Recaudo**|application-service|Administración de la facturación y recaudo diario de los productos||
-|**Gestión de Beneficiarios**|application-service|Gestión de Beneficiarios: Permite administrar la información relacionada con los beneficiarios del Asociado, permitiendo ejecutar operaciones de consulta, inserción y modificación<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.||
-|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.||
-|**SS02.reporte - cotizacion**|application-service|||
-|**SS02.reporte - estado - cotizacion**|application-service|||
-|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.||
+|**Cliente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Operaciones sobre Clientes.<br>||
+|**Configuración**|application-service|Configuración o parametrización de factores para realizar los cálculos de las contribuciones de los asociados a la Cooperativa para cada uno de los productos adquiridos.<br>||
+|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
+|**Gestión de Usuarios**|application-service|Gestión de Usuarios: Administración de la información relacionada con los usuarios del sistema. Este componente se comunica con el servicio unificado de autenticación y autorización que devuelve los permisos que un usuario posee sobre las opciones que proporciona el sistema.<br>||
+|**Multiactiva**|application-service|Servicios de aplicación central que el Cotizador Web usa. Multiactiva.<br>||
+|**SS02.protecciones - mim - actuaria**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
+|**SS02.protecciones- desmemebracion - accidente**|application-service|Servicios de aplicación central que el Cotizador Web usa. Protección.||
+|**SS02.reporte - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Reportes.||
+|**SS02.reporte - estado - cotizacion**|application-service|Servicios de aplicación central que el Cotizador Web usa. Cotización.<br>||
+|**Simuladores**|application-service|Simuladores: Funcionalidades que permiten generar las simulaciones de los diferentes planes o modificaciones (incrementos y disminuciones) a los productos del Asociado.<br>||
 |**Analistas**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
 |**Asesores**|business-role|Asesores integrales||
 |**Auxiliares servicio**|business-role|Analistas y auxiliares de servicio regional y nacional, agentes del centro de contacto, auditores médicos, analistas de operaciones (aseguramiento y facturación) y jefes.||
@@ -394,8 +404,8 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 |**Servicio de Red**|technology-service|||
 |**Servicio de archivos**|technology-service|||
 
-## ArqCotizador. 4a. Aplicación. Servicios
-![Diagram: ArqCotizador. 4a. Aplicación. Servicios](images/ArqCotizador.4a.Aplicación.Servicios.png){#fig:ArqCotizador.4a.Aplicación.Servicios width=}
+## Cotizador. 4a. Aplicación. Servicios
+![Diagram: Cotizador. 4a. Aplicación. Servicios](images/Cotizador.4a.Aplicación.Servicios.png){#fig:Cotizador.4a.Aplicación.Servicios width=}
 
 Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotizador Web. 
 
@@ -410,16 +420,16 @@ Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotiz
 |**Servicio**|application-component|Exposición de componentes de negocio.<br>||
 |**Interfaz transporte**|application-interface|Feign Client.<br>Integración con otros sistemas para facilitar los procesos de vinculación, retiro, reactivación o fallecimiento de asociados.||
 |**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
-|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.||
+|**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
 |**Integración**|application-service|||
 
-## ArqCotizador. 4a. Dependencias
-![Diagram: ArqCotizador. 4a. Dependencias](images/ArqCotizador.4a.Dependencias.png){#fig:ArqCotizador.4a.Dependencias width=}
+## Cotizador. 4a. Dependencias
+![Diagram: Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
 
 ### Paquetes y Dependencias Cotizador Web
 Módulos y componentes que hacen parte de la estructura de la aplicación Cotizador Web (basado en Angular 12 [^1]).
 
-[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de hacer el desarrollo gestionado.
+[^1]: Angular 2 tiene una arquitectura Modelo Vista Controlador (MVC) con el fin de facilitar el desarrollo gestionado.
 
 ### Módulos Cotizador Web
 La estructura por módulos actual apunta a la escalabilidad y mantenimiento del Cotizador en términos de: organizar las partes de la aplicación, organización los bloques, extender la aplicación con libreras externas, proporcionar un entorno de resolución de plantillas y además, distribuir las cargas de los componentes y servicios que usa la aplicación.
@@ -430,37 +440,37 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 |:--------|:--------|:--------|:--------|
 |**app: Cotizador Web**|application-component|pkg: MiMutualWeb<br>|*modulo:* cotizador<br>|
 |**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: administración**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: administración**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cliente**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: clientes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: componentes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cliente**|application-component|controladores web de cliente. Reúne las clases que constituyen el modelo de entrada/salida de la interfaz gráfica de Clientes. Distinto al paquete admin controlador Clientes (pkg: web.clientes).<br>|*modulo:* cotizador<br>|
+|**pkg: clientes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación. Disitnto al paquete web de Cliente (pkg: admin.cliente).|*modulo:* cotizador<br>|
+|**pkg: componentes**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotización**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: directivas**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: home**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: interfaces**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotización**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: directivas**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: home**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: interfaces**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: proveedores**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: proveedores**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reportes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: transporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: util**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: transporte**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: util**|application-component|controller: contiene las clases que constituyen los llamados a librerías compartidas de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**Aplicativo**|application-function||*modulo:* cotizador<br>|
-|**Compartido**|application-function||*modulo:* cotizador<br>|
-|**Cotizador**|application-function||*modulo:* cotizador<br>|
-|**Interfaz gráfica**|application-function||*modulo:* cotizador<br>|
+|**(web) Cotizador**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**(web) admin Páginas**|application-function|Grupo de páginas web del cotizador.<br>|*modulo:* cotizador<br>|
+|**Aplicativo**|application-function|Grupo de funcionalidades y entidades (datos) específicas del Cotizador Web.<br>|*modulo:* cotizador<br>|
+|**Interfaz gráfica**|application-function|Módulo interno (carpeta de proyecto) contenedor de las plantiilas de páginas web del Cotizador.<br>|*modulo:* cotizador<br>|
+|**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
 |**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
-|**admin Páginas**|application-function||*modulo:* cotizador<br>|
 |**admin Servicios**|application-function||*modulo:* cotizador<br>|
 
-## ArqCotizador. 5. Físico (despliegue)
-![Diagram: ArqCotizador. 5. Físico (despliegue)](images/ArqCotizador.5.Físico(despliegue).png){#fig:ArqCotizador.5.Físico(despliegue) width=}
+## Cotizador. 5. Físico (despliegue)
+![Diagram: Cotizador. 5. Físico (despliegue)](images/Cotizador.5.Físico(despliegue).png){#fig:Cotizador.5.Físico(despliegue) width=}
 
 ### Especificaciones de Despliegue Cotizador Web
 Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
@@ -476,7 +486,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 * Postman. Se debe instalar el postman para poder consumir los servicios del backend mas adelante cuando ya se hayan desplegado.
 * Node Js. Se debe instalar Node Js para configurar el proyecto front mas adelante, nos debemos asegurar de instalar la versión v14.2.0.
 * Visual Studio Code. Se debe instalar el IDE para realizar modificaciones al proyecto front mas adelante en este caso Visual Studio code. 
-k. Angular 9.1.12 o superior.
+* Angular 14.
 
 <br>
 
@@ -490,30 +500,30 @@ k. Angular 9.1.12 o superior.
 |**app: Protecciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión y configuración de productos y protecciones.|*modulo:* mimutual<br>|
 |**app: Reclamaciones**|application-component|Contiene todas las funcionalidades relacionadas con la gestión de reclamaciones, liquidaciones y pagos.|*modulo:* mimutual<br>|
 |**pkg: admin**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: administración**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: administración**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: asociados**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: auth**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cliente**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: clientes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cliente**|application-component|controladores web de cliente. Reúne las clases que constituyen el modelo de entrada/salida de la interfaz gráfica de Clientes. Distinto al paquete admin controlador Clientes (pkg: web.clientes).<br>|*modulo:* cotizador<br>|
+|**pkg: clientes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación. Disitnto al paquete web de Cliente (pkg: admin.cliente).|*modulo:* cotizador<br>|
 |**pkg: config**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: cotizaciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: cotización**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: home**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: cotización**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: home**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: modelos**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: multiactiva**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: protecciones**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: proveedores**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: proveedores**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: reporte**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
-|**pkg: reportes**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
+|**pkg: reportes**|application-component|admin controller: Almacenan todas las clases que constituyen los servicios REST de la administrción de la aplicación.|*modulo:* cotizador<br>|
 |**pkg: utilidades**|application-component|controller: Almacenan todas las clases que constituyen los servicios rest de la aplicación.|*modulo:* cotizador<br>|
 |**Conexión: jdbc**|artifact||*modulo:* cotizador<br>|
-|**Entorno Angular: ng12**|system-software||*modulo:* cotizador<br>|
+|**Entorno Angular: ng 14.0.0**|system-software||*modulo:* cotizador<br>|
 |**Entorno JS: node 14.2.0**|system-software||*modulo:* cotizador<br>|
 |**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
 |**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
 
-## ArqCotizador. 7. Datos. Negocio
-![Diagram: ArqCotizador. 7. Datos. Negocio](images/ArqCotizador.7.Datos.Negocio.png){#fig:ArqCotizador.7.Datos.Negocio width=}
+## Cotizador. 7. Datos. Negocio
+![Diagram: Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
 
 ### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
@@ -536,16 +546,16 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT00.Beneficiario**|business-object|||
 |**DAT00.Canal (medios del tomador/asociado)**|business-object|||
 |**DAT00.Configuración (caracterización)**|business-object|Caracterización de productos, planes, parámetros<br>||
-|**DAT00.Plan (producto pólizas seguros)**|business-object|||
-|**DAT01.Cotización**|business-object|||
-|**DAT01.Vinculación**|business-object|||
+|**DAT00.Cotización**|business-object|||
+|**DAT00.Plan configuración**|business-object|Plan de configuración: producto pólizas seguros.<br>||
+|**DAT00.Vinculación**|business-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 
 
-``Generated on: Fri Oct 13 2023 14:46:27 GMT-0500 (COT)``
+``Generated on: Fri Nov 03 2023 19:26:47 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
