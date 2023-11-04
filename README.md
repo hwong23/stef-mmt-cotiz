@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/hwong23/stef-mmt-cotiz/tree/gh-pages) branch hosts the contents of this directory at <https://hwong23.github.io/stef-mmt-cotiz/>.
-The permalink for this webpage version is <https://hwong23.github.io/stef-mmt-cotiz/v/2decfe6b1b0d8b8d369212978cf186007beb3e76/>.
+The permalink for this webpage version is <https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://hwong23.github.io/stef-mmt-cotiz/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`2decfe6b1b0d8b8d369212978cf186007beb3e76`](https://github.com/hwong23/stef-mmt-cotiz/commit/2decfe6b1b0d8b8d369212978cf186007beb3e76).
+[`c2394d54baff98bf21bbba8d62888b6fd0917318`](https://github.com/hwong23/stef-mmt-cotiz/commit/c2394d54baff98bf21bbba8d62888b6fd0917318).
