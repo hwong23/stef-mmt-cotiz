@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-04" />
   <meta name="citation_publication_date" content="2023-11-04" />
   <meta property="article:published_time" content="2023-11-04" />
-  <meta name="dc.modified" content="2023-11-04T00:38:02+00:00" />
-  <meta property="article:modified_time" content="2023-11-04T00:38:02+00:00" />
+  <meta name="dc.modified" content="2023-11-04T00:52:02+00:00" />
+  <meta property="article:modified_time" content="2023-11-04T00:52:02+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.c2394d5 de 04 Nov 2023
+| **Versión** del producto 1.2b852eb de 04 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/c2394d54baff98bf21bbba8d62888b6fd0917318/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/2b852ebee756c018f0121fe7026aaabfc0762a08/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@c2394d5](http://stefanini.sharepoint.com)
+[Sharepoint STEF@2b852eb](http://stefanini.sharepoint.com)
 del November 4, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.c2394d5 del 04 Nov 2023 |
+| Versión        | 1.2b852eb del 04 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -342,6 +342,8 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 |**Parametrización: typeservice**|application-service|||
 |**Sesión admin: idletimeout**|application-service|||
 
+<br>
+
 ## Cotizador. 2. Contenedores
 ![Diagram: Cotizador. 2. Contenedores](images/Cotizador.2.Contenedores.png){#fig:Cotizador.2.Contenedores width=}
 
@@ -355,6 +357,8 @@ Los módulos externos son todas y cada una de las herramientas que se utilizan p
 |**Servicios**|application-function|||
 |**API Mi Mutual**|application-interface||*modulo:* mimutual<br>|
 |**Cliente HTTP / HTTPS**|application-interface|||
+
+<br>
 
 ## Cotizador. 4. Aplicación
 ![Diagram: Cotizador. 4. Aplicación](images/Cotizador.4.Aplicación.png){#fig:Cotizador.4.Aplicación width=}
@@ -404,6 +408,8 @@ La organización de la aplicación Cotizador Web Mi Mutual, como capa de present
 |**Servicio de Red**|technology-service|||
 |**Servicio de archivos**|technology-service|||
 
+<br>
+
 ## Cotizador. 4a. Aplicación. Servicios
 ![Diagram: Cotizador. 4a. Aplicación. Servicios](images/Cotizador.4a.Aplicación.Servicios.png){#fig:Cotizador.4a.Aplicación.Servicios width=}
 
@@ -422,6 +428,8 @@ Composición interna de los servivios de Mi Mutual Central, Mi Mutual Web, Cotiz
 |**Application Service**|application-service|Otros servicios del contexto de Mi Mutual Central.<br>||
 |**Gestión de Productos**|application-service|Gestión de productos del fondo mutual y auxilio funerario que involucran lo relacionado a las siguientes coberturas: * Fondo de Solidaridad: Incapacidades temporales, Incapacidades Permanentes (total, parcial), Perseverancia 60, 62, 65, 70 años, Perseverancias Anticipadas, Fallecimiento Asociado (Auxilio por muerte), Desempleo, Disminución de ingresos y enfermedades graves; Rentas por hospitalización, Enfermedades de Alto Costo, Pólizas de seguros personales y patrimoniales, Planes educativos, Segunda opinión médica, Asistencias. * Auxilio Funerario: Fallecimiento de familiares directos (inscritos) del Asociado.<br>||
 |**Integración**|application-service|||
+
+<br>
 
 ## Cotizador. 4a. Dependencias
 ![Diagram: Cotizador. 4a. Dependencias](images/Cotizador.4a.Dependencias.png){#fig:Cotizador.4a.Dependencias width=}
@@ -468,6 +476,8 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 |**Módulos Compartidos**|application-function|Librerías de software base que el Cotizador Web requiere. Dependencias a paquetes de software de base, distintas a los módulos de negocio, necesarios para la ejecución de tareas utilitarias del Cotizador, tales como comunicación, políticas de seguridad, especificación de objetos globales de interfaz, transporte, transformación, entre otras.<br>|*modulo:* cotizador<br>|
 |**Util**|application-function|En la Utilidades se especifican las clases que complementan una funcionalidad de un componente o servicio.<br>* FormValidate: Clase que implementa un disparador de validación de todos los campos de un formulario.<br>* CustomValidators: Creación de validaciones de campos.<br><br><br>|*modulo:* cotizador<br>|
 |**admin Servicios**|application-function||*modulo:* cotizador<br>|
+
+<br>
 
 ## Cotizador. 5. Físico (despliegue)
 ![Diagram: Cotizador. 5. Físico (despliegue)](images/Cotizador.5.Físico(despliegue).png){#fig:Cotizador.5.Físico(despliegue) width=}
@@ -522,6 +532,8 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 |**Repositorio: db2 iSerie**|system-software||*modulo:* cotizador<br>|
 |**Servicios: tomcat**|system-software||*modulo:* mimutual<br>|
 
+<br>
+
 ## Cotizador. 7. Datos. Negocio
 ![Diagram: Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
 
@@ -554,8 +566,10 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 |**DAT01.PERSONA**|data-object|||
 |**DAT01.PERSONA**|data-object|||
 
+<br>
 
-``Generated on: Fri Nov 03 2023 19:26:47 GMT-0500 (COT)``
+
+``Generated on: Fri Nov 03 2023 19:49:14 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
