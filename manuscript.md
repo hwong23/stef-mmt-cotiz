@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T02:32:43+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T02:32:43+00:00" />
+  <meta name="dc.modified" content="2023-11-07T15:35:39+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T15:35:39+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/a487c2d115d4cffd6fb70f3627db5d89c1cb8d69/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/a487c2d115d4cffd6fb70f3627db5d89c1cb8d69/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/a487c2d115d4cffd6fb70f3627db5d89c1cb8d69/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.a487c2d de 07 Nov 2023
+| **Versión** del producto 1.3c86e99 de 07 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/a487c2d115d4cffd6fb70f3627db5d89c1cb8d69/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@a487c2d](http://stefanini.sharepoint.com)
+[Sharepoint STEF@3c86e99](http://stefanini.sharepoint.com)
 del November 7, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.a487c2d del 07 Nov 2023 |
+| Versión        | 1.3c86e99 del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -271,7 +271,7 @@ Table: Requisito no. 3, Desarrollo Cotizador Web Mi Mutual, Flexibilidad. {#tbl:
 	* [Cotizador. 4. Aplicación](#cotizador.-4.-aplicación)
 	* [Cotizador. 4a. Aplicación. Servicios](#cotizador.-4a.-aplicación.-servicios)
 	* [Cotizador. 4a. Dependencias](#cotizador.-4a.-dependencias)
-	* [upd](#upd)
+	* [Cotizador. 5. Físico (despliegue)](#cotizador.-5.-físico-despliegue)
 	* [Cotizador. 7a. Modelo Negocio](#cotizador.-7a.-modelo-negocio)
 
 
@@ -479,8 +479,8 @@ La estructura por módulos actual apunta a la escalabilidad y mantenimiento del 
 
 <br>
 
-## upd
-![Diagram: upd](images/upd.png){#fig:upd width=}
+## Cotizador. 5. Físico (despliegue)
+![Diagram: Cotizador. 5. Físico (despliegue)](images/Cotizador.5.Físico(despliegue).png){#fig:Cotizador.5.Físico(despliegue) width=}
 
 ### Especificaciones de Despliegue Cotizador Web
 Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local (2022).
@@ -587,7 +587,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 <br>
 
 
-``Generated on: Fri Nov 03 2023 20:03:35 GMT-0500 (COT)``
+``Generated on: Tue Nov 07 2023 10:31:00 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
