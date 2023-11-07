@@ -49,8 +49,8 @@
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T15:41:34+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T15:41:34+00:00" />
+  <meta name="dc.modified" content="2023-11-07T15:57:58+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T15:57:58+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -65,9 +65,9 @@
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/8a006c1181e1f6124bc589671c60317d09b603d9/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/8a006c1181e1f6124bc589671c60317d09b603d9/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/8a006c1181e1f6124bc589671c60317d09b603d9/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -89,7 +89,7 @@
 <p><br></p>
 <p><br></p>
 <p><br></p>
-<div class="line-block"><strong>Versión</strong> del producto 1.e7ad2c3 de 07 Nov 2023</div>
+<div class="line-block"><strong>Versión</strong> del producto 1.8a006c1 de 07 Nov 2023</div>
 <div class="line-block"><strong>Presentado a</strong></div>
 <div class="line-block">STEF - Coomeva</div>
 <div class="line-block"></div>
@@ -99,9 +99,9 @@
 
 </div>
 <p><small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023,
-(<a href="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/">Web</a>)
+(<a href="https://hwong23.github.io/stef-mmt-cotiz/v/8a006c1181e1f6124bc589671c60317d09b603d9/">Web</a>)
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-<a href="http://stefanini.sharepoint.com">Sharepoint STEF@e7ad2c3</a>
+<a href="http://stefanini.sharepoint.com">Sharepoint STEF@8a006c1</a>
 del November 7, 2023.
 </em></small></p>
 <p><br></p>
@@ -150,7 +150,7 @@ Arquitecto, Stefanini
 </tr>
 <tr class="even">
 <td>Versión</td>
-<td>1.e7ad2c3 del 07 Nov 2023</td>
+<td>1.8a006c1 del 07 Nov 2023</td>
 </tr>
 <tr class="odd">
 <td>Vínculos</td>
@@ -312,6 +312,7 @@ Arquitecto, Stefanini
 <li><a href="#cotizador.-4a.-dependencias">Cotizador. 4a. Dependencias</a></li>
 <li><a href="#cotizador.-5.-físico-despliegue">Cotizador. 5. Físico (despliegue)</a></li>
 <li><a href="#cotizador.-7a.-modelo-negocio">Cotizador. 7a. Modelo Negocio</a></li>
+<li><a href="#cotizador.-7.-datos.-negocio">Cotizador. 7. Datos. Negocio</a></li>
 </ul></li>
 </ul>
 <div style="page-break-before: always;">
@@ -1329,6 +1330,7 @@ Arquitecto, Stefanini
 <figcaption aria-hidden="true"><span>Imagen 7:</span> Diagram: Cotizador. 7a. Modelo Negocio</figcaption>
 </figure>
 </div>
+<p>Modelo de negocio (lógico) de Mi Mutual, extensible a sus demás módulos, como el Cotizador Web y demás. El modelo de negocio Mi Mutual contiene los conceptos de negocio que se encuentran implementados en el sofware, reglas y funciones de negocio, y el modelo(s) de datos del sistema.</p>
 <h3 id="conceptos-principales">Conceptos Principales</h3>
 <ol type="1">
 <li>Configuración</li>
@@ -1347,6 +1349,9 @@ Arquitecto, Stefanini
 <li>Venta o Cotización</li>
 <li>Factura</li>
 </ol>
+<p><br></p>
+<h3 id="relación-negocio-datos">Relación Negocio Datos</h3>
+<p>La relación entre los conceptos de negocio y el modelo de datos se encuentra en la vista Cotizador. 7. Datos. Negocio.</p>
 <h3 id="catálogo-de-elementos-6">Catálogo de Elementos</h3>
 <table>
 <colgroup>
@@ -1481,7 +1486,484 @@ Arquitecto, Stefanini
 </tbody>
 </table>
 <p><br></p>
-<p><code>Generated on: Tue Nov 07 2023 10:38:24 GMT-0500 (COT)</code></p>
+<h2 id="cotizador.-7.-datos.-negocio">Cotizador. 7. Datos. Negocio</h2>
+<div id="fig:Cotizador.7.Datos.Negocio" class="fignos">
+<figure>
+<img src="images/Cotizador.7.Datos.Negocio.png" alt="Imagen 8: Diagram: Cotizador. 7. Datos. Negocio" />
+<figcaption aria-hidden="true"><span>Imagen 8:</span> Diagram: Cotizador. 7. Datos. Negocio</figcaption>
+</figure>
+</div>
+<h3 id="entidades-de-negocio-mi-mutual">Entidades de Negocio Mi Mutual</h3>
+<p>Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.</p>
+<ul>
+<li>Configuración (caracterización de productos, plan)</li>
+<li>Plan (producto pólizas seguros)</li>
+<li>Canal (medios del tomador/asociado)</li>
+<li>Parametros globales (catálogos)</li>
+<li>Portafolio de asociado</li>
+<li>Asociado</li>
+<li>Facturación</li>
+<li>Beneficiario</li>
+</ul>
+<h3 id="catálogo-de-elementos-7">Catálogo de Elementos</h3>
+<table>
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Name</th>
+<th style="text-align: left;">Type</th>
+<th style="text-align: left;">Description</th>
+<th style="text-align: left;">Properties</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00. Cobertura</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Asegurado</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Asociado</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Beneficiario</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Canal (medios del tomador/asociado)</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Configuración (caracterización)</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;">Caracterización de productos, planes, parámetros<br></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Cotización</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Facturación</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;">Factura la genera COOMEVA.<br></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Plan - Cobertura</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Plan configuración</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;">Plan de configuración: producto pólizas seguros.<br></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Plan de Pagos</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Planes</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Producto</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT00.Venta</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT00.Vinculación</strong></td>
+<td style="text-align: left;">business-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.CANAL_CONFIG_MOV</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.CANAL_EVENTO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.CANAL_VENTA_EXCLUSION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.CANAL_VENTA_EXCLUSION_COBERTURA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.CICLO_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.COBERTURA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_APORTE_ESTATUTARIO_ASEGURADO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_ASEGURADO_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_ASEGURADO_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_DETALLE_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_DETALLE_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_PLAN_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_PLAN_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.COTIZACION_TEMP</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.ESTADO_COTIZACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.ESTADO_VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.FRECUENCIA_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.FRECUENCIA_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.MEDIO_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.MEDIO_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.MIM_COTIZACION_APORTE_ESTATUTARIO_ASEGURADO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.MOVIMIENTO_PLAN_CANAL</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_CANAL_VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_CANAL_VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_COBERTURA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_COBERTURA_DEPENDIENTE</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_COBERTURA_EDAD</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_COBERTURA_TIPO_COBERTURA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_FRECUENCIA_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_FRECUENCIA_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_MEDIO_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_MEDIO_FACTURACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_NIVEL_RIESGO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_OBLIGATORIO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PLAN_PARENTESCO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PLAN_PERSEVERANTE</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PRE_VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PRODUCTO_COBERTURA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.PROMOTOR_CANAL</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.PROSPECTO_ASOCIADO_COTIZACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.RESPONSABLE_PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.RESPONSABLE_PERSONA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.SIP_PRODUCTOS</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.SIP_PRODUCTOS_TIPO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.TIPO_COTIZACION</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.TIPO_VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.VENTA</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.VENTAS_PREGUNTAS</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.VENTA_ASEGURADO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT01.VENTA_DETALLE</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: left;"><strong>DAT01.VENTA_PLAN</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;"><strong>DAT10.COBERTURA_BENEFICIARIO</strong></td>
+<td style="text-align: left;">data-object</td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<p><code>Generated on: Tue Nov 07 2023 10:55:06 GMT-0500 (COT)</code></p>
 <h2 id="requerimientos-de-administración-cotizador-web-mi-mutual-central">Requerimientos de Administración Cotizador Web Mi Mutual Central</h2>
 <ol type="1">
 <li>Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos.</li>
