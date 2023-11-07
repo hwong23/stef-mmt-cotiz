@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T15:35:39+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T15:35:39+00:00" />
+  <meta name="dc.modified" content="2023-11-07T15:41:34+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T15:41:34+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.3c86e99 de 07 Nov 2023
+| **Versión** del producto 1.e7ad2c3 de 07 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/3c86e99be39ebd7f15e7581293d6955d7ab67acb/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/e7ad2c37c109c310d54e01192082767fe8ff7fa5/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@3c86e99](http://stefanini.sharepoint.com)
+[Sharepoint STEF@e7ad2c3](http://stefanini.sharepoint.com)
 del November 7, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.3c86e99 del 07 Nov 2023 |
+| Versión        | 1.e7ad2c3 del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -587,7 +587,7 @@ Detalles de configuración del proyecto Mi Mutual en el espacio de trabajo local
 <br>
 
 
-``Generated on: Tue Nov 07 2023 10:31:00 GMT-0500 (COT)``
+``Generated on: Tue Nov 07 2023 10:38:24 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
