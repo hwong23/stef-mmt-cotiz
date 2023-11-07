@@ -18,8 +18,8 @@ header-includes: |
   <meta name="dc.date" content="2023-11-07" />
   <meta name="citation_publication_date" content="2023-11-07" />
   <meta property="article:published_time" content="2023-11-07" />
-  <meta name="dc.modified" content="2023-11-07T16:00:37+00:00" />
-  <meta property="article:modified_time" content="2023-11-07T16:00:37+00:00" />
+  <meta name="dc.modified" content="2023-11-07T16:10:12+00:00" />
+  <meta property="article:modified_time" content="2023-11-07T16:10:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -34,9 +34,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://hwong23.github.io/stef-mmt-cotiz/" />
   <meta name="citation_pdf_url" content="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://hwong23.github.io/stef-mmt-cotiz/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/43cd6288a30c83e511d20430e7446a74b81502cb/" />
-  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/43cd6288a30c83e511d20430e7446a74b81502cb/" />
-  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/43cd6288a30c83e511d20430e7446a74b81502cb/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://hwong23.github.io/stef-mmt-cotiz/v/3b25f982bdadbdf777fac5f7ee7820f615fdd03d/" />
+  <meta name="manubot_html_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3b25f982bdadbdf777fac5f7ee7820f615fdd03d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://hwong23.github.io/stef-mmt-cotiz/v/3b25f982bdadbdf777fac5f7ee7820f615fdd03d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -77,7 +77,7 @@ tablenos-caption-name: Tabla
 
 <br>
 
-| **Versión** del producto 1.43cd628 de 07 Nov 2023
+| **Versión** del producto 1.3b25f98 de 07 Nov 2023
 
 | **Presentado a**
 
@@ -95,9 +95,9 @@ tablenos-caption-name: Tabla
 
 
 <small><em>Los productos de esta etapa, MiMutual - Modificación Core Unidad de Solidaridad y Seguros, Contrato XXX-2023, 
-([Web](https://hwong23.github.io/stef-mmt-cotiz/v/43cd6288a30c83e511d20430e7446a74b81502cb/))
+([Web](https://hwong23.github.io/stef-mmt-cotiz/v/3b25f982bdadbdf777fac5f7ee7820f615fdd03d/))
 están basados en el resultado del proyecto Coomeva Mi Mutual en curso.
-[Sharepoint STEF@43cd628](http://stefanini.sharepoint.com)
+[Sharepoint STEF@3b25f98](http://stefanini.sharepoint.com)
 del November 7, 2023.
 </em></small>
 
@@ -142,7 +142,7 @@ Descripción de los productos del trabajo de arquitectura del proyecto MI MUTUAL
 | Palabras clave | SIU, Stefanini, Coomeva, Análisis de brecha, GAP, Comparativa              |
 | Autor          |                            |
 | Fuente         |                            |
-| Versión        | 1.43cd628 del 07 Nov 2023 |
+| Versión        | 1.3b25f98 del 07 Nov 2023 |
 | Vínculos       | [N003a Vista Segmento Coomeva SIU](N03a%a20Vsta%20aSegenta%20SOA%20Coomeva.md) |
 
 <br>
@@ -599,6 +599,10 @@ La relación entre los conceptos de negocio y el modelo de datos se encuentra en
 ## Cotizador. 7. Datos. Negocio
 ![Diagram: Cotizador. 7. Datos. Negocio](images/Cotizador.7.Datos.Negocio.png){#fig:Cotizador.7.Datos.Negocio width=}
 
+La relación del modelo de negocio Mi Mutual con el modelo de datos del Cotizador Web orienta la navegación en el modelo de datos en aquellas historias de usuario que impliquen a alguna de estas entidades.
+
+Este modelo de relación negocio-datos es evolutivo: irá cambiando en la medida de que el negocio o el modelo de datos cambien.
+
 ### Entidades de Negocio Mi Mutual
 Dominios de datos de negocio. Entidades independiente de la plataforma y de la tecnología.
 
@@ -610,6 +614,8 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 * Asociado
 * Facturación
 * Beneficiario
+
+<br>
 
 
 ### Catálogo de Elementos
@@ -692,7 +698,7 @@ Dominios de datos de negocio. Entidades independiente de la plataforma y de la t
 <br>
 
 
-``Generated on: Tue Nov 07 2023 10:55:06 GMT-0500 (COT)``
+``Generated on: Tue Nov 07 2023 11:06:50 GMT-0500 (COT)``
 
 ## Requerimientos de Administración Cotizador Web Mi Mutual Central
 1.	Las soluciones deben permitir la administración de los Roles de Usuarios: esta funcionalidad debe permitir configurar los diferentes roles de los usuarios funcionales de los procesos. 
